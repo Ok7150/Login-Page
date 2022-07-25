@@ -1,0 +1,81 @@
+  body{
+    margin:0;
+    padding: 0;
+    background: url(https://cdn.wallpapersafari.com/39/48/uZgjSG.jpg);
+    background-size: cover;
+    
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; 
+    padding: 85px;
+} 
+
+.avatar{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    top: -120px;
+    border-radius: 50%;
+    left: calc(35% - 50px);
+} 
+
+.avatar img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 25px;
+    margin: 0;
+    padding: 10 10 20px;
+}
+
+.loginbox p{
+    margin: 0;
+    margin: 0;
+    font-weight: bold ;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(236, 36, 36);
+    font-size: 18px;
+    border-radius:20px ;
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(253, 253, 15);
+    color: black;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: dark gray ;
+}
+
+.loginbox a:hover{
+    color: red;
+}
